@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Auto Refresh</title>
+  <style>
+    body {
+      width: 120px;
+    }
+    #countdown {
+      font-size: 20px;
+      margin-top: 0px;
+    }
+    input[type="number"] {
+      width: 50px;
+    }
+  </style>
+</head>
+<body>
+  <p>Auto Refresh</p>
+  <label for="minutes">Minutes:</label>
+  <input type="number" id="minutes" placeholder="Minutes" min="0" value="2">
+  <br>
+  <label for="seconds">Seconds:</label>
+  <input type="number" id="seconds" placeholder="Seconds" min="1" value="30">
+  <br><br>
+  <button id="startButton">Start</button>&nbsp;&nbsp;&nbsp;<span id="countdown"></span>
+  <script src="popup.js"></script>
+</body>
+</html>
+
+
+
